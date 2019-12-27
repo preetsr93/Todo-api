@@ -18,10 +18,10 @@ var todos = [{
 }
 ];
 
-// GET /todos
-// app.get('/todos', function (req, res){
-//     res.json(todos);
-// });
+//GET /todos
+app.get('/todos', function (req, res){
+    res.json(todos);
+});
 
 //GET /todos/:id
 app.get('/todos/:id', function (req, res){
